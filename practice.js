@@ -27,3 +27,35 @@ for(let i = 0; i<product.length ; i++){
 }
 
     console.log(product);
+
+    // functions
+
+function practice(){
+    let count = 0;
+   let name = prompt("Enter Your Name");
+for(const char of name ){
+    if(char==="a" || char==="e" || char==="o" || char==="u" || char==="i")
+count++;
+    }
+    console.log(count)
+}
+practice();
+//with for loop 
+function practice(){
+   let name = prompt("Enter Your Name");
+   name=name.toLowerCase();
+for(let i=0;i<name.length; i++ ){
+    if(name[i]==="a" || name[i]==="e" || name[i]==="o" || name[i]==="u" || name[i]==="i"){
+        console.log(name[i] ,"this is the vowel");
+    }
+}
+}
+practice();
+
+// for each loop
+let square=[1,2,3,4,5,6,7,8,9,10];
+square.forEach((square,)=>
+{
+    console.log(square,"Square of thes values are ", square*square)
+}
+)
