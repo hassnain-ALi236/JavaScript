@@ -59,3 +59,7 @@ square.forEach((square,)=>
     console.log(square,"Square of thes values are ", square*square)
 }
 )
+// DOM PREPARATIONS
+let practice = document.querySelector("h2");
+console.dir(practice.innerText);
+practice.innerText = practice.innerText + " from Apna College Student";   
