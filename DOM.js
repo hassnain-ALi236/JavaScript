@@ -14,9 +14,14 @@
 //VariableName.innerText= we can get inner text /which is written in tag/id/class by writting in console/browser
 //VariableName.tagName= we can get tag which from which id/class is written ( maybe it is written in div , p , section any tag)
 //VariableName.textContent we can get that text whose text visibillity is hidden .
-let practice = document.querySelector("h2");
-console.dir(practice.innerText);
-practice.innerText = practice.innerText + " from Apna College Student";   
-
+// let practice = document.querySelector("h2");
+// console.dir(practice.innerText);
+// practice.innerText = practice.innerText + " from Apna College Student";   
+let divs=document.querySelectorAll(".box");
+let  count=1;
+for( let i=0; i<divs.length; i++){
+divs[i].innerText = `I am div ${count}`;
+    count++;
+}
 
 
