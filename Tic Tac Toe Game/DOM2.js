@@ -1,0 +1,12 @@
+// let get = document.querySelector("div")
+// console.log(get);
+// let id=get.getAttribute("id")
+// console.log(id)
+// let name=get.getAttribute("name")
+// console.log(name)
+let tag= document.querySelector("span")
+console.log(tag)
+let id = tag.getAttribute("id")
+console.log(id)
+let cl = tag.getAttribute("class")
+console.log(cl)
